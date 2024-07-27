@@ -56,7 +56,7 @@ nav {
     text-align: center;
 }
 .banner-content img{
-    width:1500px;
+    max-width:100%;
     margin: 0px;
     justify-content: stretch;
 }
@@ -199,6 +199,7 @@ nav {
     padding: 32px;
     height:614px;
     width: 1140px;
+    margin-left: 150px;
 }
 .inspo p{
     margin-bottom: 48px;
