@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Azeret Mono", monospace; */
+/* Shared styles */
+
+.header-section{
+    font-weight: 800;
+    font-size: 32px;
+    color:#0D1321 ;
+    text-align: center;
+    margin-top: 111px;
+}
+
+.para-section{
+    font-weight: 300;
+    font-size: 16px;
+    color: #0D1321;
+   
+   
+}
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+   
+   
+    
+  }
+
+/* nav */
+nav {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 100px 20px 100px;
+}
+.title-name{
+    font-size: 28px;
+    font-weight: bolder;
+    
+}
+
+
+.download_resume{
+    padding: 10px;
+    border: 1px black solid;
+    border-radius: 5px;
+    font-weight: 600; 
+    background-color: transparent;
+    font-size: 20px;
+}
+/* Banner */
+.banner{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.banner-content img{
+    width:1500px;
+    margin: 0px;
+    justify-content: stretch;
+}
+
+
+.center-pic{
+    position: absolute;
+    top: 180px;
+    padding-left: 45px; 
+    width:240px;
+}
+
+.banner-text{
+    position: absolute;
+    top: 420px;
+    justify-content: center;
+    padding-left:050px;
+   
+}
+
+.title{
+    font-size: 50px;
+    font-weight: 800;
+    width: 998px;
+    padding-bottom: 24px;
+    text-align: center;
+
+}
+
+.para{
+    width: 852px;
+    padding-left: 50px;
+    padding-bottom: 32px;
+    
+   
+}
+.intro{
+    text-align: center;
+    font-size: 25px;
+    font-weight:300;
+    color:#0D1321;
+    font-size: 16px;
+}
+
+
+.contact-me{
+    align-items: center;
+    padding: 21px 24px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold; 
+    background-color: #0D1321;
+    font-size: 20px;
+}
+/* Development */
+.development{
+    display: block ;
+    margin:114px;
+    padding: 119px 80px 80px 80px;
+    background-color:#0d132107;
+    align-items: center;
+
+}
+.development h3{
+    margin-top: 0px;
+}
+
+
+.development >p{
+    padding-left: 100px;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 300;
+    width: 852px;
+    text-align: center;
+
+}
+
+.cards{
+    width: 946px;
+    padding-left: 50px;
+
+}
+.card1 ,.card2, .card3{
+    background-color:linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+    /* background-color: white; */
+    border-radius: 16px;
+    margin: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards img{
+    
+    margin: 50px 00px 0px 0px;
+    height: 200px;
+}
+
+.cards h4{
+    color:#0d1321ab;
+    font-size: 24px;
+    width:390px;
+    padding: 20px 0px 0px 00px;
+    margin-left: 0px    ;
+    font-weight: bold;
+   
+}
+.cards p{
+  
+    width: 456px;
+    padding: 20px 0px 20px 00px;
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: 0px    ;
+    color: #0D1321;
+   
+}
+.cards button{
+    padding: 12px 20px;
+    border: 1px solid black;
+    margin-left: 0px    ;
+    margin-bottom: 20px;
+    color: #0d1321ab;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Inspiration */
+.inspiration{
+
+    text-align: center;
+}
+
+
+
+.youtube{
+    border: 1px solid #0d1321ab;
+    padding: 32px;
+    height:614px;
+    width: 1140px;
+}
+.inspo p{
+    margin-bottom: 48px;
+
+}
+
+/* Target */
+.target{
+    
+    text-align: center;
+}
+
+.minicard{
+    display: flex;
+    width:1140px;
+    text-align: left;
+    margin: 48px 150px;
+    margin-left:200px ;
+    justify-content: center;
+   
+}
+.html{
+    background-color: rgb(234, 223, 255);
+    padding: 40px;
+    margin: 5px;
+    width:364px; 
+    border-radius: 10px;
+}
+.css{
+    background-color: rgb(221, 245, 255);
+    padding: 40px;
+    margin: 5px;
+    width:364px; 
+    border-radius: 10px;
+}
+.js{
+    background-color: rgb(244, 255, 201);
+    padding: 40px;
+    margin: 5px;
+    width:364px; 
+    border-radius: 10px;
+}
+.minicard h4{
+text-align: left;    
+margin-bottom:8px;
+margin-top: 24px;
+
+
+}
+
+.minicard p{
+    margin-bottom: 24px;
+}
+.minicard a{
+    color: black;
+    font-weight: 800;
+    justify-content:flex-start ;
+    font-size: 16px;
+}
+/* Next Target */
+.next-target{
+    
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    align-content: center;
+}
+
+.next-target >p{
+    
+    width: 852px;
+    margin-left: 200px;
+    margin-bottom: 48px;
+}
+.react ,.nodes , .mongo{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+    border: 2px solid rgb(190, 186, 186);
+    border-radius: 15px;
+
+    max-height:250px;
+}
+
+.react img, .nodes img , .mongo img {
+   width: 200px;
+    height: 100px;
+    padding: 20px;
+    margin-top: 24px;
+    
+}
+.hrcard p{
+    padding-right: 40px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.all-Hrcard{
+    margin: 0px 50px 0px 50px;
+}
+.hrcard{
+
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 40px;
+
+}
+.hrcard a{
+    color: #000;
+}
+.hrcard h4{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* Support */
+.content{
+    position: relative;
+}
+.support img{
+    width: 1140px;
+    max-height: 313px;
+    margin: 10px 50px 10px 175px;
+    border-radius: 16px;
+}
+.shadow{
+    box-shadow: 1px 2px  rgb(0, 0, 0),  1px 1px  rgba(0, 0, 0, 0.19) inset;
+ 
+}
+
+
+.content h3{
+    justify-content: center;
+    position: absolute;
+    margin: 10px 100px 10px 200px ;
+    bottom:220px;
+    left: 420px;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+.content p{
+    justify-content: center;
+    position: absolute;
+    margin: 10px 100px 10px 200px ;
+    bottom:150px;
+    left: 250px;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+form{
+    margin: 10px 100px 10px 200px ;
+    bottom:50px;
+    left: 250px;
+    position: absolute;
+}
+form [type="text"]{
+    width: 548px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid #0d132107;
+
+}
+form [type="submit"]{
+    width: 120px;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: 800;
+    padding: 17px 20px;
+    border:none;
+    background-color: white;
+}
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 100px 20px 100px;
+   background-color: ##0d132107;
+   width: 100%;
+   margin-left:0 ;
+   
+}
+footer h2{
+padding: 20px;
+
+}
+.icons{
+    margin:20px 0px 0px 600px;
+}
+.icons a{
+    text-decoration: none;
+}
+.icons img{
+    padding: 10px;
+}
